@@ -1,0 +1,83 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "27-01-2024",
+            "dia": "Sabado",
+            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/27/union-electrica-preve-afectaciones-durante-todo-el-dia-890-mw-en-el-pico-nocturno/&ved=2ahUKEwjn3Pi8_OaJAxWrQTABHZvnAnQQFnoECBcQAQ&usg=AOvVaw1NogllX9YfUaIndyyvEQhm"
+        },
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2180,
+            "demanda_max": 3000,
+            "deficit": 820,
+            "pronostico": {
+                "afectacion": 890
+            }
+        },
+        "info_horarios": {
+            "ma\u00c3\u00b1ana": {
+                "disponibilidad": 1760,
+                "demanda": 1950,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 600
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 388,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad",
+                        "CTE": "Guiteras"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                     }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                    {
+                        "cantidad": 0,
+                        "tipo": false,
+                        "razon": false,
+                        "afectacion": 0
+                    }
+                ]
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de 6 motores en la patana de Melones, la entrada de la unidad de la CTE Guiteras y el completamiento de Energas Jaruco",
+                "razon": "mantenimiento",
+                "cantidad_mw": 420
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 1032,
+            "hora": "18:40",
+            "desc": "coincide con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "afectado el SEN por deficit de capacidad",
+            "horas": "18",
+            "hora_rest": "24:00"
+        }
+    }
+}

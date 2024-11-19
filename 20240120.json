@@ -1,0 +1,83 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "20-01-2024",
+            "dia": "Sabado",
+            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/20/la-union-electrica-estima-una-afectacion-de-35-mw-para-el-horario-pico-nocturno/&ved=2ahUKEwjMm-Wd--aJAxUpTTABHSvwO-4QFnoECBUQAQ&usg=AOvVaw1xaDQ4PstGLtQUyCfn4tIT"
+        },
+        "estimacion": {
+            "horario": "pico nocturna",
+            "disponibilidad": 2815,
+            "demanda_max": 2780,
+            "deficit": 0,
+            "pronostico": {
+                "afectacion": 35
+            }
+        },
+        "info_horarios": {
+            "ma\u00c3\u00b1ana": {
+                "disponibilidad": 2530,
+                "demanda": 1900,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 396,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "Renté"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": {
+            "no_servicio": [
+                    {
+                        "cantidad": 0,
+                        "tipo": false,
+                        "razon": false,
+                        "afectacion": 0
+                    }
+                ]
+        },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de siete motores en la patana de Melones, la entrada de la unidad 3 de la CTE Renté y la entrada de motores de Generacion Distribuida",
+                "razon": "mantenimiento",
+                "cantidad_mw": 285
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 0,
+            "hora": "",
+            "desc": ""
+        },
+        "dia_anterior": {
+            "desc": "no se afecto por deficit de capacidad de generacion",
+            "horas": 0,
+            "hora_rest": ""
+        }
+    }
+}

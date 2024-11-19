@@ -1,0 +1,83 @@
+{
+    "sen_info": {
+        "main_info": {
+            "fecha": "16-01-2024",
+            "dia": "Martes",
+            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/16/une-estima-afectacion-de-140-mw-durante-pico-nocturno-de-este-martes/&ved=2ahUKEwj21vjT-uaJAxVvRDABHe7ZDfEQFnoECBUQAQ&usg=AOvVaw2UixlQlM82CqvN0WhD3Y1N"
+        },
+        "estimacion": {
+            "horario": "Nocturno",
+            "disponibilidad": 2730,
+            "demanda_max": 2800,
+            "deficit": 70,
+            "pronostico": {
+                "afectacion": 140
+            }
+        },
+        "info_horarios": {
+            "ma\u00c3\u00b1ana": {
+                "disponibilidad": 2400,
+                "demanda": 2000,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+                }    
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 430,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "Diez de Octubre"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 8",
+                        "CTE": "Mariel"
+                     },
+                     {
+                        "nombre": "Unidad 3",
+                        "CTE": "Cienfuegos"
+                     }
+                ]
+            }
+         },
+         "centr_gen_distr": {
+            "no_servicio": [
+                    {
+                        "cantidad": 0,
+                        "tipo": false,
+                        "razon": false,
+                        "afectacion": 0
+                    }
+                ]
+         },
+        "pico": {
+            "estimacion": {
+                "desc": "entrada de la unidad 5 de la termoelectrica Nuevitas, la entrada de ocho motores en la patana de Melones y la entrada de motores de generacion distribuida",
+                "razon": "mantenimiento",
+                "cantidad_mw": 230
+            }
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 57,
+            "hora": "18:30",
+            "desc": "coincidente con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afecto el servicio por deficit de capacidad de generacion en el SEN durante el horario pico",
+            "horas": "0:30",
+            "hora_rest": "18:56"
+        }
+}    
