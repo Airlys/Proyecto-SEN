@@ -1,83 +1,47 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "28-01-2024",
-            "dia": "Domingo",
-            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/28/pronostican-afectacion-de-952-mw-durante-el-horario-pico-nocturno-de-este-domingo/&ved=2ahUKEwipkN7M_OaJAxWZTTABHb5mPWsQFnoECBcQAQ&usg=AOvVaw3Ex87RO0gTnvDU4t3H2p7S"
-        },
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2118,
-            "demanda_max": 3000,
-            "deficit": 882,
-            "pronostico": {
-                "afectacion": 952
-            }
-        },
-        "info_horarios": {
-            "ma\u00c3\u00b1ana": {
-                "disponibilidad": 1950,
-                "demanda": 1820,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
+    "zones_with_problems":[null],
+    "date": "20240128",
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/28/pronostican-afectacion-de-952-mw-durante-el-horario-pico-nocturno-de-este-domingo/&ved=2ahUKEwj_sJT-qPiJAxXPmYQIHQdFLh0QFnoECBwQAQ&usg=AOvVaw3Ex87RO0gTnvDU4t3H2p7S",
+    "prediction":{
+        "availability": 2118,
+        "demand_max": 3000,
+        "impact": 952,
+        "deficit": 882,
+        "backup": null
+    },
+    "morning_info":{
+        "time": "0700",
+        "availability": 1950,
+        "demand": 1820,
+        "deficit": 400
+    },
+    "plants":[
+        {
+            "broken": [
+                {
+                    "AM":["3"],
+                    "LR":["2"],
+                    "DO":["5"]
                 }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 409,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Diez de Octubre"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    },
-                    {
-                        "nombre": "Unidad 3",
-                        "CTE": "Rente"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                     }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 0,
-                        "tipo": false,
-                        "razon": false,
-                        "afectacion": 0
-                    }
-                ]
-        },
-        "pico": {
-            "estimacion": {
-                "desc": "entrada de 4 motores de la patana de Melones, la entrada de la unidad 3 de la CTE Rente y el completamiento con 30 MW de Energas Jaruco",
-                "razon": "mantenimiento",
-                "cantidad_mw": 168
-            }
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 959,
-            "hora": "18:40",
-            "desc": ""
-        },
-        "dia_anterior": {
-            "desc": "se afecto el servicio por deficit de capacidad de generacion",
-            "horas": "18:03",
-            "hora_rest": "00:17"
+            ],
+            "maintenance": [
+                {
+                    "MG":["8"]
+                }
+            ],
+            "limitation": 409
         }
+    ],
+    "distributed":{
+        "motors_with_problems": null,
+        "total_impact": 168,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "1803,",
+        "max": 959,
+        "max_hour": "1840"
     }
 }
