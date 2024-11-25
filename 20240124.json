@@ -1,83 +1,47 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "24-01-2024",
-            "dia": "Miercoles",
-            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/24/une-pronostica-una-afectacion-de-320-mw-en-horario-pico-nocturno/&ved=2ahUKEwjk54j7--aJAxXRfjABHciwMuQQFnoECBQQAQ&usg=AOvVaw0Kgon6Wtj2SoggIPC6pjfb"
-        },
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2450,
-            "demanda_max": 2700,
-            "deficit": 250,
-            "pronostico": {
-                "afectacion": 320
-            }
-        },
-        "info_horarios": {
-            "ma\u00c3\u00b1ana": {
-                "disponibilidad": 2250,
-                "demanda": 1870,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
+    "zones_with_problems":[ "middle", "east"],
+    "date": "20240124",
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/24/une-pronostica-una-afectacion-de-320-mw-en-horario-pico-nocturno/&ved=2ahUKEwjg147YoviJAxVxRjABHXVdFoMQFnoECBgQAQ&usg=AOvVaw0Kgon6Wtj2SoggIPC6pjfb",
+    "prediction":{
+        "availability": 2450,
+        "demand_max": 2700,
+        "impact": 320,
+        "deficit": 250,
+        "backup": null
+    },
+    "morning_info":{
+        "time": "0700",
+        "availability": 2250,
+        "demand": 1870,
+        "deficit": null
+    },
+    "plants":[
+        {
+            "broken": [
+                {
+                    "MG":["5"],
+                    "AM":["3"],
+                    "LR":["1 y 2"]
                 }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 474,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Mariel"
-                    },
-                    {
-                        "nombre": "Unidad 3",
-                        "CTE": "Rente"
-                    },
-                    {
-                        "nombre": "Unidad 1 y 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                     }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 0,
-                        "tipo": false,
-                        "razon": false,
-                        "afectacion": 0
-                    }
-                ]
-        },
-        "pico": {
-            "estimacion": {
-                "desc": "entrada de siete motores en la patana de Melones, la entrada de la unidad 5 de la CTE Mariel y la entrada de motores de Generacion Distribuida",
-                "razon": "mantenimiento",
-                "cantidad_mw": 200
-            }
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 77,
-            "hora": "18:20",
-            "desc": "coincidente con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": "se afecto el servicio en el SEN en el horario pico por deficit de capacidad y altas transferencias hacia la zona centro-oriental",
-            "horas": "1:17",
-            "hora_rest": "18:54"
+            ],
+            "maintenance": [
+                {
+                    "MG":["8"]
+                }
+            ],
+            "limitation": 474
         }
+    ],
+    "distributed":{
+        "motors_with_problems": null,
+        "total_impact": 200,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "0117",
+        "max": 77,
+        "max_hour": "1820"
     }
 }
