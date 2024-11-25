@@ -1,83 +1,47 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "27-01-2024",
-            "dia": "Sabado",
-            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/27/union-electrica-preve-afectaciones-durante-todo-el-dia-890-mw-en-el-pico-nocturno/&ved=2ahUKEwjn3Pi8_OaJAxWrQTABHZvnAnQQFnoECBcQAQ&usg=AOvVaw1NogllX9YfUaIndyyvEQhm"
-        },
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2180,
-            "demanda_max": 3000,
-            "deficit": 820,
-            "pronostico": {
-                "afectacion": 890
-            }
-        },
-        "info_horarios": {
-            "ma\u00c3\u00b1ana": {
-                "disponibilidad": 1760,
-                "demanda": 1950,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 600
+    "zones_with_problems":[null],
+    "date": "20240127",
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/27/union-electrica-preve-afectaciones-durante-todo-el-dia-890-mw-en-el-pico-nocturno/&ved=2ahUKEwjb69jQp_iJAxXsRDABHSTOK48QFnoECB0QAQ&usg=AOvVaw1NogllX9YfUaIndyyvEQhm",
+    "prediction":{
+        "availability": 2180,
+        "demand_max": 3000,
+        "impact": 890,
+        "deficit": 820,
+        "backup": null
+    },
+    "morning_info":{
+        "time": "0700",
+        "availability": 1760,
+        "demand": 1950,
+        "deficit": 200
+    },
+    "plants":[
+        {
+            "broken": [
+                {
+                    "AG":["1"],
+                    "LR":["2"],
+                    "DO":["5"]
                 }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 388,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad",
-                        "CTE": "Guiteras"
-                    },
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Nuevitas"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                     }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 0,
-                        "tipo": false,
-                        "razon": false,
-                        "afectacion": 0
-                    }
-                ]
-        },
-        "pico": {
-            "estimacion": {
-                "desc": "entrada de 6 motores en la patana de Melones, la entrada de la unidad de la CTE Guiteras y el completamiento de Energas Jaruco",
-                "razon": "mantenimiento",
-                "cantidad_mw": 420
-            }
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 1032,
-            "hora": "18:40",
-            "desc": "coincide con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": "afectado el SEN por deficit de capacidad",
-            "horas": "18",
-            "hora_rest": "24:00"
+            ],
+            "maintenance": [
+                {
+                    "MG":["8"]
+                }
+            ],
+            "limitation": 388
         }
+    ],
+    "distributed":{
+        "motors_with_problems": null,
+        "total_impact": 420,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "1759,",
+        "max": 1032,
+        "max_hour": "1840"
     }
 }
