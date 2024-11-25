@@ -36,7 +36,7 @@
         "motors_with_problems": null,
         "total_impact": 240,
         "combustible_problem": true,
-        "snips_with_problems": 2,
+        "ships_with_problems": 2,
         "motors_impact": null
     },
     "impact": {
