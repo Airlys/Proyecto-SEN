@@ -1,79 +1,46 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "22-01-2024",
-            "dia": "Lunes",
-            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/22/une-pronostica-en-horario-nocturno-afectaciones-en-la-zona-centro-oriental-debido-a-altas-transferencias-de-energia/&ved=2ahUKEwiuv-vc--aJAxU_mYQIHdUzILcQFnoECBUQAQ&usg=AOvVaw15NStMzzVvOgYl_1f1YQGF"
-        },
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2598,
-            "demanda_max": 2620,
-            "deficit": 22,
-            "pronostico": {
-                "afectacion": 92
-            }
-        },
-        "info_horarios": {
-            "ma\u00c3\u00b1ana": {
-                "disponibilidad": 2314,
-                "demanda": 1800,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
+    "zones_with_problems":[ "middle", "east"],
+    "date": "20240122",
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/22/une-pronostica-en-horario-nocturno-afectaciones-en-la-zona-centro-oriental-debido-a-altas-transferencias-de-energia/&ved=2ahUKEwiF66_lnviJAxWsRDABHfmyHhsQFnoECB0QAQ&usg=AOvVaw15NStMzzVvOgYl_1f1YQGF",
+    "prediction":{
+        "availability": 2598,
+        "demand_max": 2620,
+        "impact": 92,
+        "deficit": 22,
+        "backup": null
+    },
+    "morning_info":{
+        "time": "0700",
+        "availability": 2314,
+        "demand": 1800,
+        "deficit": null
+    },
+    "plants":[
+        {
+            "broken": [
+                {
+                    "DO":["6"],
+                    "LR":["1 y 2"]
                 }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 395,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 6",
-                        "CTE": "Nuevitas"
-                    },
-                    {
-                        "nombre": "Unidad 1 y 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                     }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 0,
-                        "tipo": false,
-                        "razon": false,
-                        "afectacion": 0
-                    }
-                ]
-        },
-        "pico": {
-            "estimacion": {
-                "desc": "entrada de siete motores en la patana de Melones, la entrada de la unidad 6 de la CTE Nuevitas y la entrada de motores de Generacion Distribuida",
-                "razon": "mantenimiento",
-                "cantidad_mw": 320
-            }
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 120,
-            "hora": "18:30",
-            "desc": "coincidente con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": "se afecto el servicio en el SEN por altas transferencias hacia la zona centro-oriental en el horario pico",
-            "horas": "1:39",
-            "hora_rest": "19:11"
+            ],
+            "maintenance": [
+                {
+                    "MG":["8"]
+                }
+            ],
+            "limitation": 395
         }
+    ],
+    "distributed":{
+        "motors_with_problems": null,
+        "total_impact": 320,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "0139",
+        "max": 120,
+        "max_hour": "1830"
     }
 }
