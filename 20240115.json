@@ -1,83 +1,37 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "15-01-2024",
-            "dia": "Lunes",
-            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/15/une-no-preve-afectaciones-en-horario-diurno-y-afectacion-de-210-mw-en-el-pico-este-lunes/&ved=2ahUKEwiqnM7Qu-eJAxVXQTABHXFzAawQFnoECBQQAQ&usg=AOvVaw2BMCcoIS6J0YAqgdun0D1b"
-        },
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2640,
-            "demanda_max": 2780,
-            "deficit": 140,
-            "pronostico": {
-                "afectacion": 210
-            }
-        },
-        "info_horarios": {
-            "ma\u00c3\u00b1ana": {
-                "disponibilidad": 2420,
-                "demanda": 1950,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
-                }
-                }    
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 396,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Diez de Octubre"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                     },
-                     {
-                        "nombre": "Unidad 3",
-                        "CTE": "Cienfuegos"
-                     }
-                ]
-            }
-         },
-         "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 0,
-                        "tipo": false,
-                        "razon": false,
-                        "afectacion": 0
-                    }
-                ]
-         },
-        "pico": {
-            "estimacion": {
-                "desc": "entrada de siete motores en la patana de Melones y de motores de generacion distribuida ",
-                "razon": "mantenimiento",
-                "cantidad_mw": 220
-            }
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 124,
-            "hora": "18:30",
-            "desc": "coincidente con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": "se afecto el servicio por deficit de capacidad de generacion en el SEN durante el horario pico",
-            "horas": "1:21",
-            "hora_rest": "18:30"
+    "zones_with_problems":[null],
+    "date": "20240115",
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/15/une-no-preve-afectaciones-en-horario-diurno-y-afectacion-de-210-mw-en-el-pico-este-lunes/&ved=2ahUKEwiqnM7Qu-eJAxVXQTABHXFzAawQFnoECBQQAQ&usg=AOvVaw2BMCcoIS6J0YAqgdun0D1b",
+    "prediction":{
+        "availability": 2640,
+        "demand_max": 2780,
+        "impact": 210,
+        "deficit": 140,
+        "backup": null
+    },
+    "morning_info":{
+        "time": "0700",
+        "availability": 2420,
+        "demand": 1950,
+        "deficit": null
+    },
+    "plants":[
+        {
+            "broken": [],
+            "maintenance": [],
+            "limitation": 0
         }
-}    
+    ],
+    "distributed":{
+        "motors_with_problems": null,
+        "total_impact": 220,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "0121",
+        "max": 124,
+        "max_hour": "1830"
+    }
+}
