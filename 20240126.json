@@ -1,91 +1,49 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "26-01-2024",
-            "dia": "Viernes",
-            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/26/une-pronostica-afectacion-de-1-010-mw-durante-pico-nocturno-de-este-viernes/&ved=2ahUKEwi4jYyd_OaJAxVqTTABHTzJCBwQFnoECBUQAQ&usg=AOvVaw0QxmN5uI20ojqNhGVot-PM"
-        },
-        "estimacion": {
-            "horario": "pico nocturna",
-            "disponibilidad": 2060,
-            "demanda_max": 3000,
-            "deficit": 940,
-            "pronostico": {
-                "afectacion": 1010
-            }
-        },
-        "info_horarios": {
-            "ma\u00c3\u00b1ana": {
-                "disponibilidad": 1870,
-                "demanda": 1950,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 550
+    "zones_with_problems":[null],
+    "date": "20240126",
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/26/une-pronostica-afectacion-de-1-010-mw-durante-pico-nocturno-de-este-viernes/&ved=2ahUKEwi_-tvDpfiJAxUtTjABHdAUAu4QFnoECBcQAQ&usg=AOvVaw0QxmN5uI20ojqNhGVot-PM",
+    "prediction":{
+        "availability": 2060,
+        "demand_max": 3000,
+        "impact": 1010,
+        "deficit": 940,
+        "backup": null
+    },
+    "morning_info":{
+        "time": "0700",
+        "availability": 1870,
+        "demand": 1950,
+        "deficit": 200
+    },
+    "plants":[
+        {
+            "broken": [
+                {
+                    "AG":["1"],
+                    "LR":["2"],
+                    "MG":["6"],
+                    "AM":["6"],
+                    "DO":["5"]
                 }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 318,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 6",
-                        "CTE": "Mariel"
-                    },
-                    {
-                        "nombre": "Unidad",
-                        "CTE": "Guiteras"
-                    },
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Nuevitas"
-                    },
-                    {
-                        "nombre": "Unidad 6",
-                        "CTE": "Rente"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                     }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 0,
-                        "tipo": false,
-                        "razon": false,
-                        "afectacion": 0
-                    }
-                ]
-        },
-        "pico": {
-            "estimacion": {
-                "desc": "entrada de seis motores en la patana de Melones y la entrada de la unidad 6 de Mariel",
-                "razon": "mantenimiento",
-                "cantidad_mw": 190
-            }
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 482,
-            "hora": "18:40",
-            "desc": "coincidente con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": "el servicio presento afectaciones en el horario pico por el deficit de capacidad de generacion",
-            "horas": "6:12 y 6:00",
-            "hora_rest": "13:20 y 21:53"
+            ],
+            "maintenance": [
+                {
+                    "MG":["8"]
+                }
+            ],
+            "limitation": 318
         }
+    ],
+    "distributed":{
+        "motors_with_problems": null,
+        "total_impact": 190,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "1212,",
+        "max": 482,
+        "max_hour": "1840"
     }
 }
