@@ -1,79 +1,46 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "25-01-2024",
-            "dia": "Jueves",
-            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/25/une-pronostica-una-afectacion-de-615-mw-en-el-horario-pico-nocturno/&ved=2ahUKEwi9iuqM_OaJAxXigIQIHYZWCoEQFnoECBgQAQ&usg=AOvVaw3u5TTOn0TSfOrVlnguw-iw"
-        },
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2355,
-            "demanda_max": 2900,
-            "deficit": 545,
-            "pronostico": {
-                "afectacion": 615
-            }
-        },
-        "info_horarios": {
-            "ma\u00c3\u00b1ana": {
-                "disponibilidad": 2100,
-                "demanda": 1950,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 350
+    "zones_with_problems":[null],
+    "date": "20240125",
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/25/une-pronostica-una-afectacion-de-615-mw-en-el-horario-pico-nocturno/&ved=2ahUKEwiSwKL9o_iJAxUYSDABHVH6EC8QFnoECBwQAQ&usg=AOvVaw3u5TTOn0TSfOrVlnguw-iw",
+    "prediction":{
+        "availability": 2355,
+        "demand_max": 2900,
+        "impact": 615,
+        "deficit": 545,
+        "backup": null
+    },
+    "morning_info":{
+        "time": "0700",
+        "availability": 2100,
+        "demand": 1950,
+        "deficit": null
+    },
+    "plants":[
+        {
+            "broken": [
+                {
+                    "AG":["1"],
+                    "LR":["1 y 2"]
                 }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 375,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad",
-                        "CTE": "Guiteras"
-                    },
-                    {
-                        "nombre": "Unidad 1 y 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                     }
-                ]
-            }
-        },
-        "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 0,
-                        "tipo": false,
-                        "razon": false,
-                        "afectacion": 0
-                    }
-                ]
-        },
-        "pico": {
-            "estimacion": {
-                "desc": "entrada de 2 motores en la Patana de Melones y la entrada de la unidad 1 de la CTE Felton",
-                "razon": "mantenimiento",
-                "cantidad_mw": 255
-            }
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 865,
-            "hora": "18:30",
-            "desc": "coincide con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": "se afecto el servicio en el Sistema Electrico Nacional en el horario pico por deficit de capacidad y altas transferencias hacia la zona centro-oriental",
-            "horas": "9:07",
-            "hora_rest": "22:30"
+            ],
+            "maintenance": [
+                {
+                    "MG":["8"]
+                }
+            ],
+            "limitation": 375
         }
+    ],
+    "distributed":{
+        "motors_with_problems": null,
+        "total_impact": 255,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "0907",
+        "max": 865,
+        "max_hour": "1830"
     }
 }
