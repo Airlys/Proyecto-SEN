@@ -1,83 +1,47 @@
 {
-    "sen_info": {
-        "main_info": {
-            "fecha": "16-01-2024",
-            "dia": "Martes",
-            "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/16/une-estima-afectacion-de-140-mw-durante-pico-nocturno-de-este-martes/&ved=2ahUKEwj21vjT-uaJAxVvRDABHe7ZDfEQFnoECBUQAQ&usg=AOvVaw2UixlQlM82CqvN0WhD3Y1N"
-        },
-        "estimacion": {
-            "horario": "Nocturno",
-            "disponibilidad": 2730,
-            "demanda_max": 2800,
-            "deficit": 70,
-            "pronostico": {
-                "afectacion": 140
-            }
-        },
-        "info_horarios": {
-            "ma\u00c3\u00b1ana": {
-                "disponibilidad": 2400,
-                "demanda": 2000,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
+    "zones_with_problems":[null],
+    "date": "20240116",
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=http://www.cubadebate.cu/noticias/2024/01/16/une-estima-afectacion-de-140-mw-durante-pico-nocturno-de-este-martes/&ved=2ahUKEwi_1tKklPiJAxV5TDABHaIYHKsQFnoECBcQAQ&usg=AOvVaw2UixlQlM82CqvN0WhD3Y1N",
+    "prediction":{
+        "availability": 2730,
+        "demand_max": 2800,
+        "impact": 140,
+        "deficit": 70,
+        "backup": null
+    },
+    "morning_info":{
+        "time": "0700",
+        "availability": 2400,
+        "demand": 2000,
+        "deficit": null
+    },
+    "plants":[
+        {
+            "broken": [
+                {
+                    "DO":["5"],
+                    "LR":["2"]
                 }
-                }    
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 430,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "Diez de Octubre"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "Felton"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 8",
-                        "CTE": "Mariel"
-                     },
-                     {
-                        "nombre": "Unidad 3",
-                        "CTE": "Cienfuegos"
-                     }
-                ]
-            }
-         },
-         "centr_gen_distr": {
-            "no_servicio": [
-                    {
-                        "cantidad": 0,
-                        "tipo": false,
-                        "razon": false,
-                        "afectacion": 0
-                    }
-                ]
-         },
-        "pico": {
-            "estimacion": {
-                "desc": "entrada de la unidad 5 de la termoelectrica Nuevitas, la entrada de ocho motores en la patana de Melones y la entrada de motores de generacion distribuida",
-                "razon": "mantenimiento",
-                "cantidad_mw": 230
-            }
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 57,
-            "hora": "18:30",
-            "desc": "coincidente con la hora pico"
-        },
-        "dia_anterior": {
-            "desc": "se afecto el servicio por deficit de capacidad de generacion en el SEN durante el horario pico",
-            "horas": "0:30",
-            "hora_rest": "18:56"
+            ],
+            "maintenance": [
+                {
+                    "MG":["8"],
+                    "CM":["3"]
+                }
+            ],
+            "limitation": 430
         }
-}    
+    ],
+    "distributed":{
+        "motors_with_problems": null,
+        "total_impact": 230,
+        "combustible_problem": true,
+        "snips_with_problems": 1,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "0030",
+        "max": 57,
+        "max_hour": "1830"
+    }
+}
